@@ -11,6 +11,7 @@ void main() => runApp(MyApp());
 class MyApp extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
+    // ignore: todo
     // TODO: implement createState
     return _MyAppState();
   }
@@ -57,7 +58,7 @@ class _MyAppState extends State<MyApp> {
   }
 
   void _answerQuestion(int score) {
-    final VoidCallback? answerQuestion;
+    //final VoidCallback? answerQuestion;
     // var aBool = true;
     // aBool = false;
 
